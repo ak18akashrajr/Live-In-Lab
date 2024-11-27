@@ -1,0 +1,20 @@
+{
+  "battery": {
+    "current": 0,
+    "percentage": 100,
+    "voltage": 12.587
+  },
+  "is_armable": false,
+  "last_heartbeat": 0.765084944001501,
+  "location": {
+    "altitude": null,
+    "latitude": -35.363261,
+    "longitude": 149.1652299
+  },
+  "mode": "STABILIZE",
+  "sat": {
+    "fix_type": 3,
+    "num_of_sat": 10
+  },
+  "system_status": "STANDBY"
+}

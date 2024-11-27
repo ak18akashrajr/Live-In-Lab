@@ -1,0 +1,29 @@
+/* .gps-container{
+    margin-left: 50%;
+    margin-top: -480px;
+} */
+
+
+.gps-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: Arial, sans-serif;
+    /* padding: 20px; */
+    margin-left: 50%;
+    margin-top: -480px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .map {
+    height: 400px;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
