@@ -1,0 +1,107 @@
+.flood-page {
+  background-color: #e3f2fd;
+  padding: 1.5rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.flood-page h1 {
+  color: #0d47a1;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.flood-page p {
+  font-size: 0.95rem;
+  color: #1565c0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Grid for Drone + Camera Feed */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+/* Drone Info Stack */
+.drone-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Single Drone Card Styling */
+.single-drone-card {
+  background-color: #ffffff;
+  border: 1px solid #bbdefb;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.single-drone-card h3 {
+  color: #0d47a1;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Video Section */
+.video-container {
+  border: 3px solid #bbdefb;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  height: 100%;
+}
+
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Metrics Section */
+.metrics-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.metric-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  border: 1.5px solid #90caf9;
+  transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: scale(1.01);
+}
+
+.metric-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+  color: #0d47a1;
+}
+
+.metric-card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #1a237e;
+}
